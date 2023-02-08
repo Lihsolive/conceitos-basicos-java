@@ -12,7 +12,7 @@ public class EntradaSaidaOperadores {
 		
 		
 		Scanner entrada = new Scanner (System.in);
-		/*
+	
 		System.out.println("\nInforme o salário: ");
 		salario = entrada.nextDouble();
 		System.out.println("\nInforme o valor do abono: ");
@@ -21,10 +21,10 @@ public class EntradaSaidaOperadores {
 		novoSalario = salario + abono;
 		
 		System.out.println("\nO novo salário será " + novoSalario);
-		*/
+		
 		
 		//Calcular notas 
-		/*
+		
 		System.out.println("\nDigite a primeira nota: ");
 		nota1 = entrada.nextDouble();
 		System.out.println("\nDigite a segunda nota: ");
@@ -37,10 +37,10 @@ public class EntradaSaidaOperadores {
 		media = (nota1+nota2+nota3+nota4)/4;
 		
 		System.out.printf("\nA média de notas é %.1f", media);
-		*/
+	
 		
 		//Calcular salário líquido
-		/*
+	
 		System.out.println("\nDigite o salário bruto: ");
 		salarioBruto = entrada.nextDouble();
 		System.out.println("\nDigite o valor do adicional noturno");
@@ -53,7 +53,7 @@ public class EntradaSaidaOperadores {
 		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 		
 		System.out.printf("\nO salário líquido é %.2f" , salarioLiquido);
-		*/
+		
 		
 		//Calcular produto e diferença entre produtos
 		
