@@ -7,16 +7,16 @@ public class EntradaSaidaOperadores {
 	public static void main(String[] args) {
 		
 		//Calcular novo salário
-		double salario, abono, novoSalario, nota1, nota2, nota3, nota4, media, salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
+		float salario, abono, novoSalario, nota1, nota2, nota3, nota4, media, salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
 		int num1, num2, num3, num4, produtoDiferenca;
 		
 		
 		Scanner entrada = new Scanner (System.in);
 	
 		System.out.println("\nInforme o salário: ");
-		salario = entrada.nextDouble();
+		salario = entrada.nextFloat();
 		System.out.println("\nInforme o valor do abono: ");
-		abono = entrada.nextDouble();
+		abono = entrada.nextFloat();
 		
 		novoSalario = salario + abono;
 		
@@ -26,13 +26,13 @@ public class EntradaSaidaOperadores {
 		//Calcular notas 
 		
 		System.out.println("\nDigite a primeira nota: ");
-		nota1 = entrada.nextDouble();
+		nota1 = entrada.nextFloat();
 		System.out.println("\nDigite a segunda nota: ");
-		nota2 = entrada.nextDouble();
+		nota2 = entrada.nextFloat();
 		System.out.println("\nDigite a terceira nota: ");
-		nota3 = entrada.nextDouble();
+		nota3 = entrada.nextFloat();
 		System.out.println("\nDigite a quarta nota: ");
-		nota4 = entrada.nextDouble();
+		nota4 = entrada.nextFloat();
 		
 		media = (nota1+nota2+nota3+nota4)/4;
 		
@@ -42,13 +42,13 @@ public class EntradaSaidaOperadores {
 		//Calcular salário líquido
 	
 		System.out.println("\nDigite o salário bruto: ");
-		salarioBruto = entrada.nextDouble();
+		salarioBruto = entrada.nextFloat();
 		System.out.println("\nDigite o valor do adicional noturno");
-		adicionalNoturno = entrada.nextDouble();
+		adicionalNoturno = entrada.nextFloat();
 		System.out.println("\nDigite as horas extras ");
-		horasExtras = entrada.nextDouble();
+		horasExtras = entrada.nextFloat();
 		System.out.println("\nDigite o valor dos descontos: ");
-		descontos = entrada.nextDouble();
+		descontos = entrada.nextFloat();
 		
 		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 		
