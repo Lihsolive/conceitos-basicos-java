@@ -1,18 +1,14 @@
-package AtividadeJava1;
-
-import java.util.Scanner;
-
 public class EntradaSaidaOperadores {
 
 	public static void main(String[] args) {
-		
 		//Calcular novo salário
 		float salario, abono, novoSalario, nota1, nota2, nota3, nota4, media, salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
 		int num1, num2, num3, num4, produtoDiferenca;
-		
-		
+				
 		Scanner entrada = new Scanner (System.in);
-	
+		
+		//Calcular novo salário com base no abono
+		/*
 		System.out.println("\nInforme o salário: ");
 		salario = entrada.nextFloat();
 		System.out.println("\nInforme o valor do abono: ");
@@ -21,10 +17,10 @@ public class EntradaSaidaOperadores {
 		novoSalario = salario + abono;
 		
 		System.out.println("\nO novo salário será " + novoSalario);
-		
+		*/
 		
 		//Calcular notas 
-		
+		/*
 		System.out.println("\nDigite a primeira nota: ");
 		nota1 = entrada.nextFloat();
 		System.out.println("\nDigite a segunda nota: ");
@@ -37,10 +33,10 @@ public class EntradaSaidaOperadores {
 		media = (nota1+nota2+nota3+nota4)/4;
 		
 		System.out.printf("\nA média de notas é %.1f", media);
-	
+		*/
 		
-		//Calcular salário líquido
-	
+		//Calcular salário líquido	
+		/*
 		System.out.println("\nDigite o salário bruto: ");
 		salarioBruto = entrada.nextFloat();
 		System.out.println("\nDigite o valor do adicional noturno");
@@ -53,10 +49,10 @@ public class EntradaSaidaOperadores {
 		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 		
 		System.out.printf("\nO salário líquido é %.2f" , salarioLiquido);
-		
+		*/
 		
 		//Calcular produto e diferença entre produtos
-		
+	
 		System.out.println("\nDigite o primeiro valor: ");
 		num1 = entrada.nextInt();
 		System.out.println("\nDigite o segundo valor: ");
@@ -68,9 +64,6 @@ public class EntradaSaidaOperadores {
 		
 		produtoDiferenca = (num1 * num2) - (num3 * num4);
 		
-		
-		System.out.println("\nO resultado da expressão: (" + num1 + " * " + num2 + ") - " + "(" + num3 + " * " + num4 + ") é " + produtoDiferenca);
-				
+		System.out.println("\nO resultado da expressão: (" + num1 + " * " + num2 + ") - " + "(" + num3 + " * " + num4 + ") é " + produtoDiferenca);			
 	}
-
 }
