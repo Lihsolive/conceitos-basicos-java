@@ -22,7 +22,5 @@ public class LacoWhile {
 		}
 		System.out.println("\nSomatório dos números pares: " + somaPar);
 		
-
 	}
-
 }
