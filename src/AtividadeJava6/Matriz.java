@@ -6,6 +6,8 @@ public class Matriz {
 
 	public static void main(String[] args) {
 
+		
+		//l = linha
 		int soma = 0;
 		int vetorSoma[] = new int[3]; // Cria um vetor de 4 posições
 		int[][] matrizInteiros = new int[3][3]; // Cria uma Matriz 3X3
@@ -23,10 +25,10 @@ public class Matriz {
 			for (int linha = 0; linha < 3; linha++) {
 				if (linha == coluna) {
 					System.out.println("\nElementos da diaginal principal: " +  matrizInteiros[linha][coluna]);
-					linha++;
 				}
 			}
+			
+			 //i + j = n - 1
 		}
-
 	}
 }

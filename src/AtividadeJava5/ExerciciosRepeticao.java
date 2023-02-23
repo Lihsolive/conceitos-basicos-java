@@ -31,15 +31,15 @@ public class ExerciciosRepeticao {
 		// menos de 21 anos. Total de pessoas com mais de 50 anos. O programa termina
 		// quando idade for = -99. (WHILE)
 		/*
-		 * Scanner entrada = new Scanner(System.in); int num, menor21 = 0, maior50 = 0;
-		 * 
-		 * System.out.println("Digite aqui a idade: "); num = entrada.nextInt();
-		 * 
-		 * while (num != -99) { System.out.println("\nDigite aqui a idade: "); num =
-		 * entrada.nextInt(); System.out.println("\nDigite -99 para sair!!! "); if (num
-		 * < 21) { menor21++; } if (num > 50) { maior50++; } }
-		 * System.out.println("\nTotal de pessoas menores de 21 anos: " + menor21);
-		 * System.out.println("\nTotal de pessoas maiores de 50 anos: " + maior50);
+		 Scanner entrada = new Scanner(System.in); int num, menor21 = 0, maior50 = 0;
+		 
+		 System.out.println("Digite aqui a idade: "); num = entrada.nextInt();
+		 
+		 while (num != -99) { System.out.println("\nDigite aqui a idade: "); num =
+		 entrada.nextInt(); System.out.println("\nDigite -99 para sair!!! "); if (num
+		 < 21) { menor21++; } if (num > 50) { maior50++; } }
+		 System.out.println("\nTotal de pessoas menores de 21 anos: " + menor21);
+		 System.out.println("\nTotal de pessoas maiores de 50 anos: " + maior50);
 		 */
 
 		// Crie um programa que leia um número do teclado até que encontre um número
@@ -68,8 +68,9 @@ public class ExerciciosRepeticao {
 			num = input.nextInt();
 			if (num != 0) {
 				contador++;
-			} if(num % 3 == 0) {
-				soma += num;				
+			}
+			if (num % 3 == 0) {
+				soma += num;
 			}
 		} while (num > 0);
 

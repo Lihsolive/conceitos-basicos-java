@@ -14,6 +14,7 @@ public class EntradaSaidaOperadores {
 		Scanner entrada = new Scanner (System.in);
 		
 		//Calcular novo salário com base no abono
+		//Salário: 10000.00 + Abono: 1000.00 = novoSalario: Salário: 10000.00
 		/*
 		System.out.println("\nInforme o salário: ");
 		salario = entrada.nextFloat();
@@ -40,8 +41,6 @@ public class EntradaSaidaOperadores {
 		
 		System.out.printf("\nA média de notas é %.1f", media);
 		*/
-
-		// Calcular salário líquido
 		
 		//Calcular salário líquido	
 		/*
@@ -65,7 +64,6 @@ public class EntradaSaidaOperadores {
 		
 		//Calcular produto e diferença entre produtos
 	
-
 		System.out.println("\nDigite o primeiro valor: ");
 		num1 = entrada.nextInt();
 		System.out.println("\nDigite o segundo valor: ");
