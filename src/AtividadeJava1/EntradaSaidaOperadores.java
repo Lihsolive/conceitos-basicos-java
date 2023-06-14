@@ -6,13 +6,15 @@ public class EntradaSaidaOperadores {
 
 	public static void main(String[] args) {
 
-		// Calcular novo salário
-		float salario, abono, novoSalario, nota1, nota2, nota3, nota4, media, salarioBruto,adicionalNoturno, horasExtras, descontos, salarioLiquido;
-		int num1, num2, num3, num4, produtoDiferenca;
-
-		Scanner entrada = new Scanner(System.in);
 
 		// Calcular novo salário com abono
+		float salario, abono, novoSalario, nota1, nota2, nota3, nota4, media, salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiquido;
+		int num1, num2, num3, num4, produtoDiferenca;
+				
+		Scanner entrada = new Scanner (System.in);
+		
+		//Calcular novo salário com base no abono
+		//Salário: 10000.00 + Abono: 1000.00 = novoSalario: Salário: 10000.00
 		/*
 		System.out.println("\nInforme o salário: ");
 		salario = entrada.nextFloat();
@@ -39,8 +41,8 @@ public class EntradaSaidaOperadores {
 		
 		System.out.printf("\nA média de notas é %.1f", media);
 		*/
-
-		// Calcular salário líquido
+		
+		//Calcular salário líquido	
 		/*
 		System.out.println("\nDigite o salário bruto: ");
 		salarioBruto = entrada.nextFloat();
@@ -59,6 +61,9 @@ public class EntradaSaidaOperadores {
 
 		// Calcular produto e diferença entre produtos
 
+		
+		//Calcular produto e diferença entre produtos
+	
 		System.out.println("\nDigite o primeiro valor: ");
 		num1 = entrada.nextInt();
 		System.out.println("\nDigite o segundo valor: ");
@@ -72,5 +77,8 @@ public class EntradaSaidaOperadores {
 
 		System.out.println("\nO resultado da expressão: (" + num1 + " * " + num2 + ") - " + "(" + num3 + " * " + num4
 				+ ") é " + produtoDiferenca);
+		
+		produtoDiferenca = (num1 * num2) - (num3 * num4);
+				
 	}
 }
