@@ -23,7 +23,7 @@ public class UsandoDatas {
 		//a saída será o dia do mês, que no caso foi 2023-06-14.
 		
 		//para formatar a data do mês
-		DateTimeFormatter formatar = DateTimeFormatter.ofPattern("d 'de' MMMM 'de' YYY", new Locale("pt", "BR"));
+		DateTimeFormatter formatar = DateTimeFormatter.ofPattern("dd ' de ' MMMM ' de ' YYYY", new Locale("pt", "BR"));
 		String formatarData = hoje.format(formatar);
 		System.out.println(formatarData);
 		//a saída será: 14 de junho de 2023
